@@ -7,18 +7,18 @@
   
   <title>博客开张啦 | 向右奔跑的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Mac下Github搭建博客 安装node.js在官网下载，直接安装，用于生成静态页面 安装npm 安装hexo 1$ sudo npm install hexo  hexo 初始化$ hexo init   $ npm install $ hexo s 12345Got, 在本地用浏览器打开即可访问 http://localhost:4000* 配置SSH密钥用于本地代码，直接发布到github">
+  <meta name="description" content="Mac下Github搭建博客 安装node.js在官网下载，直接安装，用于生成静态页面 安装npm 安装hexo 1$ sudo npm install hexo  hexo 初始化 12345$ hexo init$ npm install$ hexo s   Got, 在本地用浏览器打开即可访问 http://localhost:4000  配置SSH密钥用于本地代码，直接发布到github上">
 <meta name="keywords" content="记录">
 <meta property="og:type" content="article">
 <meta property="og:title" content="博客开张啦">
 <meta property="og:url" content="https://www.jianshu.com/u/54b5900965ea/2018/10/01/My-New-Post/index.html">
 <meta property="og:site_name" content="向右奔跑的博客">
-<meta property="og:description" content="Mac下Github搭建博客 安装node.js在官网下载，直接安装，用于生成静态页面 安装npm 安装hexo 1$ sudo npm install hexo  hexo 初始化$ hexo init   $ npm install $ hexo s 12345Got, 在本地用浏览器打开即可访问 http://localhost:4000* 配置SSH密钥用于本地代码，直接发布到github">
+<meta property="og:description" content="Mac下Github搭建博客 安装node.js在官网下载，直接安装，用于生成静态页面 安装npm 安装hexo 1$ sudo npm install hexo  hexo 初始化 12345$ hexo init$ npm install$ hexo s   Got, 在本地用浏览器打开即可访问 http://localhost:4000  配置SSH密钥用于本地代码，直接发布到github上">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-10-01T16:05:52.033Z">
+<meta property="og:updated_time" content="2018-10-01T16:07:30.597Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="博客开张啦">
-<meta name="twitter:description" content="Mac下Github搭建博客 安装node.js在官网下载，直接安装，用于生成静态页面 安装npm 安装hexo 1$ sudo npm install hexo  hexo 初始化$ hexo init   $ npm install $ hexo s 12345Got, 在本地用浏览器打开即可访问 http://localhost:4000* 配置SSH密钥用于本地代码，直接发布到github">
+<meta name="twitter:description" content="Mac下Github搭建博客 安装node.js在官网下载，直接安装，用于生成静态页面 安装npm 安装hexo 1$ sudo npm install hexo  hexo 初始化 12345$ hexo init$ npm install$ hexo s   Got, 在本地用浏览器打开即可访问 http://localhost:4000  配置SSH密钥用于本地代码，直接发布到github上">
   
     <link rel="alternate" href="/atom.xml" title="向右奔跑的博客" type="application/atom+xml">
   
@@ -97,24 +97,28 @@
 <li><p>安装hexo</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo npm install hexo</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>hexo 初始化<br><code></code><br>$ hexo init</p>
+<li><p>hexo 初始化</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br><span class="line"></span><br><span class="line">$ npm install</span><br><span class="line"></span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<p>$ npm install</p>
-<p>$ hexo s</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Got, 在本地用浏览器打开即可访问 http://localhost:4000</span><br><span class="line"></span><br><span class="line">* 配置SSH密钥</span><br><span class="line">用于本地代码，直接发布到github上。</span><br><span class="line">首先，我们需要看看是否看看本机是否存在SSH keys,打开Git Bash,并运行:</span><br></pre></td></tr></table></figure>
-<p>$ cd ~/. ssh<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
-<p>$ ssh-keygen -t rsa -C “<a href="mailto:your_email@example.com" target="_blank" rel="noopener">your_email@example.com</a>“</p>
-<p>#这将按照你提供的邮箱地址，创建一对密钥<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">* 在gitHub账户中添加你的公钥</span><br><span class="line">帐户 -- setting -- SSH and GPG keys -- New SSH key</span><br><span class="line"></span><br><span class="line">* 更新文章</span><br></pre></td></tr></table></figure></p>
-<p>$ hexo clean </p>
-<p>$ hexo g</p>
-<p>$ hexo d</p>
-<p><code>`</code></p>
+<p>Got, 在本地用浏览器打开即可访问 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a></p>
+<ul>
+<li>配置SSH密钥<br>用于本地代码，直接发布到github上。<br>首先，我们需要看看是否看看本机是否存在SSH keys,打开Git Bash,并运行:<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cd ~/. ssh</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</span><br><span class="line">#这将按照你提供的邮箱地址，创建一对密钥</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>在gitHub账户中添加你的公钥<br>帐户 – setting – SSH and GPG keys – New SSH key</p>
+</li>
+<li><p>更新文章</p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean </span><br><span class="line"></span><br><span class="line">$ hexo g</span><br><span class="line"></span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://www.jianshu.com/u/54b5900965ea/2018/10/01/My-New-Post/" data-id="cjmqhksc100006fr5rkv6mtd7" class="article-share-link">Share</a>
+      <a data-url="https://www.jianshu.com/u/54b5900965ea/2018/10/01/My-New-Post/" data-id="cjmqhmvdr00006sr5wh02gfe5" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/记录/">记录</a></li></ul>
