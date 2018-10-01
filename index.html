@@ -89,19 +89,30 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="记录一下"><a href="#记录一下" class="headerlink" title="记录一下"></a>记录一下</h3><ul>
-<li>安装node.js</li>
+        <h3 id="Mac下Github搭建博客"><a href="#Mac下Github搭建博客" class="headerlink" title="Mac下Github搭建博客"></a>Mac下Github搭建博客</h3><ul>
+<li>安装node.js<br>在官网下载，直接安装，用于生成静态页面</li>
 <li>安装npm</li>
-<li>安装hexo</li>
-<li>生成公钥</li>
-<li>GitHub账户中添加你的公钥</li>
-<li>更新文章</li>
+<li><p>安装hexo</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo npm install hexo</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>hexo 初始化<br><code></code><br>$ hexo init</p>
+</li>
 </ul>
+<p>$ npm install</p>
+<p>$ hexo s</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Got, 在本地用浏览器打开即可访问 http://localhost:4000</span><br><span class="line"></span><br><span class="line">* 配置SSH密钥</span><br><span class="line">用于本地代码，直接发布到github上。</span><br><span class="line">首先，我们需要看看是否看看本机是否存在SSH keys,打开Git Bash,并运行:</span><br></pre></td></tr></table></figure>
+<p>$ cd ~/. ssh<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
+<p>$ ssh-keygen -t rsa -C “<a href="mailto:your_email@example.com" target="_blank" rel="noopener">your_email@example.com</a>“</p>
+<p>#这将按照你提供的邮箱地址，创建一对密钥<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">* 在gitHub账户中添加你的公钥</span><br><span class="line">帐户 -- setting -- SSH and GPG keys -- New SSH key</span><br><span class="line"></span><br><span class="line">* 更新文章</span><br></pre></td></tr></table></figure></p>
+<p>$ hexo clean </p>
+<p>$ hexo g</p>
+<p>$ hexo d</p>
+<p><code>`</code></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://www.jianshu.com/u/54b5900965ea/2018/10/01/My-New-Post/" data-id="cjmqg5vic00001pr5179z8bdb" class="article-share-link">Share</a>
+      <a data-url="https://www.jianshu.com/u/54b5900965ea/2018/10/01/My-New-Post/" data-id="cjmqhksc100006fr5rkv6mtd7" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/记录/">记录</a></li></ul>
@@ -148,7 +159,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://www.jianshu.com/u/54b5900965ea/2018/10/01/hello-world/" data-id="cjmqg5vig00011pr5moxzhynn" class="article-share-link">Share</a>
+      <a data-url="https://www.jianshu.com/u/54b5900965ea/2018/10/01/hello-world/" data-id="cjmqhksc500016fr5zte7k5xq" class="article-share-link">Share</a>
       
       
     </footer>
